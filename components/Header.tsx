@@ -11,7 +11,10 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.wrapper}>
           <div className={styles.container}>
-            <div className={styles.logo}>Logo</div>
+            <div className={styles.logo}>
+              <img src="/favicon.png" alt="logo" className={styles.logoimg} />
+              <span>Gulshan</span>
+            </div>
             <div className={styles.menu}>
               <Menu onClick={() => setIsActive(!isActive)} />
             </div>
